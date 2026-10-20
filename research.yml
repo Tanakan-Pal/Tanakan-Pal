@@ -1,0 +1,48 @@
+# Research City data. Edit this file to add buildings.
+# Each item becomes part of a building in its year and category row.
+# Add a new category by adding it under `categories` and using its name in `items`.
+
+title: Tanakan Stats
+total_label: achievements unlocked   # text after the total count
+owner: Tanakan Paladkong
+
+categories:            # order = rows from back to front
+  - name: Publications
+    color: "#f2cc60"
+    unit: 34           # building height (px) per item
+  - name: Presentations
+    color: "#58a6ff"
+    unit: 22
+  - name: Projects
+    color: "#3fb950"
+    unit: 18
+  - name: Grants & Awards
+    color: "#bc8cff"
+    unit: 26
+  - name: Mentoring & Service
+    color: "#ff7b72"
+    unit: 14
+
+items:
+  # Publications
+  - {cat: Publications, year: 2023, title: "FEBS J 290: 2449–2462 (SSADH mechanism)"}
+  - {cat: Publications, year: 2020, title: "The Enzymes 47: 427–455 (bacterial luciferase)"}
+  - {cat: Publications, year: 2020, title: "PACCON 2020 proceedings"}
+  # Presentations
+  - {cat: Presentations, year: 2026, title: "GYSS 2026, Singapore (poster)"}
+  - {cat: Presentations, year: 2025, title: "Horizons in Molecular Biology, Göttingen (poster)"}
+  - {cat: Presentations, year: 2020, title: "PACCON 2020 (poster)"}
+  - {cat: Presentations, year: 2017, title: "SciEx 2017 (poster)"}
+  - {cat: Presentations, year: 2017, title: "BCT11 (poster)"}
+  # Projects
+  - {cat: Projects, year: 2026, title: "oir-to-figure"}
+  # Grants & Awards
+  - {cat: Grants & Awards, year: 2013, title: "SAST scholarship (2013–2024)"}
+  - {cat: Grants & Awards, year: 2017, title: "B.Sc. Second Class Honors"}
+  - {cat: Grants & Awards, year: 2024, title: "DAAD one-year research grant"}
+  - {cat: Grants & Awards, year: 2026, title: "GYSS 2026 delegate"}
+  # Mentoring & Service
+  - {cat: Mentoring & Service, year: 2018, title: "Research mentor (2018–2024)"}
+  - {cat: Mentoring & Service, year: 2023, title: "SCBC Student Forum host"}
+  - {cat: Mentoring & Service, year: 2023, title: "Lab-safety proposal to Faculty"}
+  - {cat: Mentoring & Service, year: 2024, title: "SCBC Student Forum host"}
