@@ -86,6 +86,7 @@ I'm a Ph.D. student in Biochemistry at Mahidol University (Thailand), working in
 | Project | Description | Stack |
 |---|---|---|
 | **oir-to-figure** | Fiji + Python pipeline for the Khvotchev Lab: raw Olympus .oir → insets, straightened neurites, slide deck. Built by Tanakan Paladkong (NAT), 2026. *Code will be released upon publication.* | `ImageJ Macro` `Python` |
+| **[roi-progress](https://github.com/Tanakan-Pal/roi-progress)** | Daily progress tracker for image analysis: daily goal, 14-day history, conditions × replicates grid, and a garden that grows as you work. [Live site](https://tanakan-pal.github.io/roi-progress/) | `HTML` `JavaScript` |
 
 ---
 
