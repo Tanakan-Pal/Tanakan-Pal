@@ -36,6 +36,7 @@ items:
   - {cat: Presentations, year: 2017, title: "BCT11 (poster)"}
   # Projects
   - {cat: Projects, year: 2026, title: "oir-to-figure"}
+  - {cat: Projects, year: 2026, title: "roi-progress"}
   # Grants & Awards
   - {cat: Grants & Awards, year: 2013, title: "SAST scholarship (2013–2024)"}
   - {cat: Grants & Awards, year: 2017, title: "B.Sc. Second Class Honors"}
