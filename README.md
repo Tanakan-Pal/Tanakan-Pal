@@ -89,4 +89,4 @@ I'm a Ph.D. student in Biochemistry at Mahidol University (Thailand), working in
 
 ---
 
-<p align="center"><i>Raw data in, honest figures out. 🧪</i></p>
+<p align="center"><i>Game saved. Next experiment loading… 🧪</i></p>
