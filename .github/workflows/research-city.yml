@@ -1,0 +1,44 @@
+name: Draw Research City
+
+on:
+  push:
+    paths: ["research.yml", "scripts/research_city.py"]   # redraw right after you edit research.yml
+  schedule:
+    - cron: "23 1 * * 1"     # every Monday 08:23 Bangkok time (also refreshes GitHub City)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Draw Research City (light + dark)
+        run: |
+          pip install pyyaml
+          python scripts/research_city.py research.yml .
+
+      # GitHub City (code activity), same as the nisarg1212 profile.
+      # Delete these lines if you only want the Research City.
+      - name: Draw GitHub City
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit if changed
+        run: |
+          git add research-city.svg research-city-dark.svg profile-3d-contrib || true
+          if git diff --cached --quiet; then
+            echo "Nothing to update."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Redraw Research City"
+            git push
+          fi
