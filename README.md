@@ -16,7 +16,7 @@
 
 ### 👋 About Me
 
-I'm a Ph.D. student in Biochemistry at Mahidol University (Thailand), working in the Khvotchev Lab with Dr. Mikhail Khvotchev. I study how calcium sensors control SNARE-mediated exocytosis, building on a background in enzyme mechanisms and transient kinetics. This GitHub holds my image-analysis tools (Fiji macros, Python) for confocal microscopy.
+I'm a Ph.D. student in Biochemistry at Mahidol University (Thailand), working in the Khvotchev Lab with Dr. Mikhail Khvotchev. I study how calcium sensors control SNARE-mediated exocytosis, building on a background in enzyme mechanisms and transient kinetics. This GitHub holds tools I build (with AI assistance) to make lab image analysis more organised and reproducible.
 
 - ✈️ **Research stay:** DAAD fellow, University of Bonn (2024–25), PALM super-resolution imaging of synaptic proteins in neurons
 - 🏅 **Highlight:** selected delegate, Global Young Scientists Summit (GYSS) 2026, Singapore
