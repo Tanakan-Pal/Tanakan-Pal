@@ -34,7 +34,8 @@ items:
   - {cat: Presentations, year: 2020, title: "PACCON 2020 (poster)"}
   - {cat: Presentations, year: 2017, title: "SciEx 2017 (poster)"}
   - {cat: Presentations, year: 2017, title: "BCT11 (poster)"}
-  # Projects
+  # Projects: filled automatically from projects.json (repos tagged `portfolio`
+  # plus scripts/manual_projects.json). Lines below are used only if projects.json is missing.
   - {cat: Projects, year: 2026, title: "oir-to-figure"}
   - {cat: Projects, year: 2026, title: "roi-progress"}
   # Grants & Awards
