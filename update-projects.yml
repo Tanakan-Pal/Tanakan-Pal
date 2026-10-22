@@ -1,0 +1,39 @@
+name: Update projects
+
+on:
+  schedule:
+    - cron: "11 0 * * *"     # every day, 07:11 Bangkok time
+  push:
+    paths: ["scripts/manual_projects.json", "scripts/update_projects.py"]
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild Projects table and projects.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_projects.py
+      - name: Redraw Tanakan Stats
+        run: |
+          pip install pyyaml
+          python scripts/research_city.py research.yml .
+      - name: Commit if changed
+        run: |
+          git add README.md projects.json research-city.svg research-city-dark.svg
+          if git diff --cached --quiet; then
+            echo "Projects already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Update projects"
+            git push
+          fi
