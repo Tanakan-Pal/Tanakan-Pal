@@ -35,9 +35,9 @@ I'm a Ph.D. student in Biochemistry at Mahidol University (Thailand), working in
 ### 📄 Publications
 
 <!-- PUBLICATIONS:START -->
-- **Paladkong T.**, Pimviriyakul P., Phonbuppha J., Maenpuen S., Chaiyen P., Tinikul R. (2023). Mechanistic roles of the neighbouring cysteine in enhancing nucleophilicity of catalytic residue in a two-cysteine succinic semialdehyde dehydrogenase. *FEBS J* 290: 2449–2462. [doi:10.1111/febs.16640](https://doi.org/10.1111/febs.16640)
-- Tinikul R., Chunthaboon P., Phonbuppha J., **Paladkong T.** (2020). Bacterial luciferase: Molecular mechanisms and applications. *The Enzymes* 47: 427–455. [doi:10.1016/bs.enz.2020.06.001](https://doi.org/10.1016/bs.enz.2020.06.001)
-- **Paladkong T.**, Tinikul R. (2020). The effect of additives on bacterial luciferase activity in complete culture media conditions. *PACCON 2020*, CB37–40.
+- **Paladkong T.**, Pimviriyakul P., Phonbuppha J., Maenpuen S., Chaiyen P., Tinikul R. (2022). Mechanistic roles of the neighbouring cysteine in enhancing nucleophilicity of catalytic residue in a two‐cysteine succinic semialdehyde dehydrogenase. *The FEBS Journal* 290: 2449–2462. [doi:10.1111/febs.16640](https://doi.org/10.1111/febs.16640)
+- The effect of additives on bacterial luciferase activity in complete culture media conditions (2020). *PACCON 2020*.
+-  (2020). Bacterial luciferase: Molecular mechanisms and applications. *The Enzymes*: 427–455. [doi:10.1016/bs.enz.2020.06.001](https://doi.org/10.1016/bs.enz.2020.06.001)
 <!-- PUBLICATIONS:END -->
 
 ---
